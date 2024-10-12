@@ -1,0 +1,32 @@
+.list-item {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 270px;
+}
+
+.appointment-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Appointment-field-name {
+  font-size: 20px;
+  color: #171f46;
+  font-weight: 500;
+  padding: 8px 0 0 10px;
+}
+
+.star-button {
+  background-color: transparent;
+  border: 0px;
+  padding: 0 10px 0 0;
+  cursor: pointer;
+}
+
+.date {
+  padding-left: 10px;
+}

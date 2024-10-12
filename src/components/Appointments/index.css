@@ -1,0 +1,131 @@
+/* Write your CSS here */
+
+* {
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.appointment-card {
+  background-color: #fff;
+  width: 90%;
+  height: 90%;
+  padding: 30px;
+  margin-top: 90px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+}
+
+.inside-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 34px 0 10px 60px;
+}
+
+.heading {
+  font-size: 32px;
+  color: #171f46;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
+.inputs {
+  height: 5vh;
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+  outline: none;
+  border: 2px solid #b5b7c4;
+  border-radius: 3px;
+}
+
+.label {
+  font-size: 13px;
+  color: #b5b7c4;
+  font-weight: 400;
+  padding-bottom: 7px;
+  padding-top: 10px;
+  font-family: Roboto;
+}
+
+.button {
+  height: 4.5vh;
+  width: 70px;
+  font-size: 16px;
+  font-family: Roboto;
+  margin-top: 20px;
+  background-color: #8b5cf6;
+  border-radius: 4px;
+  border: 0px;
+  color: #fff;
+  cursor: pointer;
+}
+.image {
+  height: 50vh;
+  width: 30vw;
+  margin: 0 110px 10px 0;
+}
+
+.line {
+  width: 90%;
+  margin-top: 16px;
+}
+
+.Appointments {
+  display: flex;
+  justify-content: space-between;
+}
+.Appointments-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+  color: #8b5cf6;
+  padding: 7px 0 0 70px;
+}
+
+.Appointments-button {
+  height: 5vh;
+  width: 90px;
+  padding: 5px;
+  margin: 7px 140px 0 0;
+  border-radius: 20px;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.filter-color {
+  background-color: #8b5cf6;
+  color: #fff;
+  border: 0px;
+}
+
+.filter-empty {
+  background-color: #fff;
+  border: 1px solid #8b5cf6;
+  color: #8b5cf6;
+}
+
+.Appointment-item {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: 32px;
+}
